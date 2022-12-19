@@ -1,0 +1,33 @@
+.auth{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100%;
+    font-family: $text;
+}
+
+.auth__form{
+    background-color: $backGround;
+}
+
+/*image: Foto de <a href="https://unsplash.com/@herib3rto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Heriberto García</a> en <a href="https://unsplash.com/es?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+.auth__image{
+    display: grid;
+    place-items: center;
+    background: 
+    linear-gradient(to top right, $purple, $lightPurple, $blue, $lightBlue),     url("https://images.unsplash.com/photo-1601694090572-98694c8b3b85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"),
+    no-repeat left top;
+    background-size: cover;
+
+}
+
+.auth__image__glass{
+    height: 65%;
+    width: 75%;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(15px);
+    box-shadow: $formShadow;
+    border-radius: 10px;
+    color: #eee;
+}
