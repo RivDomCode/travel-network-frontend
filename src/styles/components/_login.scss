@@ -8,6 +8,37 @@
 .auth__form{
     background-color: $backGround;
     width: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.auth__form form{
+    width: 75%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth__form__input{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.auth__form__input input, label{
+    padding: 0.75rem;
+    border-radius: 10px;
+}
+
+
+.auth__form__btn{
+    margin: 1rem 0;
+}
+
+.auth__form__btn button{
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 10px;
 
 }
 
