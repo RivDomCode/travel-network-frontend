@@ -1,4 +1,4 @@
-import React from 'react'
+import {SiYourtraveldottv } from "react-icons/si";
 
 const Login = () => {
   return (
@@ -18,7 +18,8 @@ const Login = () => {
       </form>
       <div className="auth__image">
           <div className="auth__image__glass">
-            AQUI VA UN TEXTO
+            <p><SiYourtraveldottv/> <br /> Travel Social Nerwork for Lonely <span>People</span></p>
+            <p>The place to connect with others to discover the world</p>
           </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 .auth{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     height: 100vh;
     width: 100%;
     font-family: $text;
@@ -8,18 +7,21 @@
 
 .auth__form{
     background-color: $backGround;
+    width: 50%;
+
 }
 
-/*image: Foto de <a href="https://unsplash.com/@herib3rto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Heriberto García</a> en <a href="https://unsplash.com/es?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  */
 .auth__image{
+    width: 50%;
+    height: 100vh;
+    background: 
+    linear-gradient(to  top right,rgb(167, 195, 245, 0.85), rgb(218, 201, 250, 0.85), rgb(105, 185, 255, 0.85), rgb(186, 217, 252,0.85)),
+    url("https://images.unsplash.com/photo-1594426342144-0d2ec75d885a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")  //Foto de <a href="https://unsplash.com/ja/@jake_t?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jake Trotman</a> en <a href="https://unsplash.com/es/s/fotos/pattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    ;
+    background-size: cover;
+    height: 100vh;
     display: grid;
     place-items: center;
-    background: 
-    linear-gradient(to top right, $purple, $lightPurple, $blue, $lightBlue),     url("https://images.unsplash.com/photo-1601694090572-98694c8b3b85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"),
-    no-repeat left top;
-    background-size: cover;
-
 }
 
 .auth__image__glass{
@@ -30,4 +32,17 @@
     box-shadow: $formShadow;
     border-radius: 10px;
     color: #eee;
+    padding: 4rem;
+    font-size: 3.2rem;
+    font-family: $titles;
+}
+
+.auth__image__glass span {
+    color: black;
+}
+
+.auth__image__glass p:nth-of-type(2){
+    font-size: 1rem;
+    font-family: $text;
+    margin-top: 1rem;
 }
