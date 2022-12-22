@@ -12,7 +12,7 @@ import Register from "../pages/Register";
 
 export const AppRouter = () =>{
 
-    const authStatus = "non-auth";
+    const authStatus = "auth";
     return(
         <BrowserRouter>
         <Routes>
