@@ -19,6 +19,13 @@
     flex-direction: column;
 }
 
+.auth__form form h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    font-family: $titles;
+}
+
 .auth__form__input{
     display: flex;
     flex-direction: column;
@@ -28,18 +35,40 @@
 .auth__form__input input, label{
     padding: 0.75rem;
     border-radius: 10px;
+    font-size: 1.2rem;
 }
 
 
 .auth__form__btn{
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .auth__form__btn button{
     width: 100%;
     padding: 0.75rem;
     border-radius: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background:    linear-gradient(to  top right, rgb(105, 185, 255, 0.85), rgb(186, 217, 252,0.85));
+    border: 1px solid #eee;
+    color: #eee;
+    box-shadow: $formShadow;
+    cursor: pointer;
+}
 
+hr{
+    height: 1px;
+    background-color: lightblue;
+    border: none;
+}
+
+.auth__form form a{
+    color: #000;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.75;
+    color: $blue;
+    margin: 1rem 0;
 }
 
 .auth__image{
