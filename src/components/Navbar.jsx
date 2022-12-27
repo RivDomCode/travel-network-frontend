@@ -13,7 +13,9 @@ const Navbar = () => {
         </div>
         <div className="actions">
             <Link>Logout</Link>
-           //TODO: avatar del usuario
+            <div className="actions__avatar">
+              
+            </div>
         </div>
     </nav>
   )
