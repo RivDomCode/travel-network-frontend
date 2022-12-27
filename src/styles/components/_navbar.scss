@@ -43,3 +43,28 @@ nav{
     box-shadow: $formShadow;
     cursor: pointer;
 }
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .2rem;
+}
+
+.actions a{
+    background-color: $blue;
+    color: #eee;
+    padding: .4rem;
+    text-transform: uppercase;
+    border: 1px solid #eee;
+    border: none;
+    padding: .1rem .5rem;
+    border-radius: 10px;
+}
+
+.actions__avatar{
+    border: 1px solid #000;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+}
